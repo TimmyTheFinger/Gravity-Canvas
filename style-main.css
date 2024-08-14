@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #212121;
+}
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.text-title {
+    font-family: 'Mansalva';
+}
+    .red { color: red; }
+    .orange { color: orange; }
+    .yellow { color: yellow; }
+    .green { color: green; }
+    .blue { color: blue; }
+    .purple { color: purple; }
+    .white { color: white; }
+
+
+.enter {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.enter:hover {
+    color: #725AC1;
+    box-shadow: inset 0 -100px 0 0  white;
+    border: 2px solid white;
+}
+
+.enter:active {
+    scale: 1.1;
+}
+
+
+.surprise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.spoiler {
+    background-color:  #212121;
+    transition: background-color 300ms, color 300ms;
+    color:  #212121;
+    cursor: pointer;
+    display: inline-block;
+    padding: .25rem;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.spoiler:hover {
+    background-color: transparent;
+    color: white;
+
+}
+

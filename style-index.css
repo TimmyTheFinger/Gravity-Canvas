@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212121;
+
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.colorpicker {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.color-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+canvas {
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 12px;
+}
+
+label {
+    color: aliceblue;
+}
